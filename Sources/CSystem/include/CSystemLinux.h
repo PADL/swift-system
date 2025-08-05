@@ -7,6 +7,8 @@
  See https://swift.org/LICENSE.txt for license information
 */
 
+#pragma once
+
 #ifdef __linux__
 
 #include <sys/epoll.h>
@@ -21,6 +23,7 @@
 #include <pthread.h>
 #include <sched.h>
 #include <unistd.h>
-#include "io_uring.h"
-#endif
 
+#include "CSystemLinuxIOURing.h"
+
+#endif

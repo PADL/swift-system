@@ -7,6 +7,8 @@
  See https://swift.org/LICENSE.txt for license information
 */
 
+#pragma once
+
 #if defined(_WIN32)
 
 #define NOMINMAX

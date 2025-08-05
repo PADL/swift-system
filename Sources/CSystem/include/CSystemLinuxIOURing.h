@@ -1,3 +1,5 @@
+#pragma once
+
 #include <unistd.h>
 #include <sys/syscall.h>
 #include <sys/uio.h>
